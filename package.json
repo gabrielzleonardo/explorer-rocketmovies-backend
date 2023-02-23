@@ -1,0 +1,22 @@
+{
+  "name": "explorer-rocketmovies",
+  "version": "1.0.0",
+  "description": "API desenvolvida para um desafio do Explorer.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./srcserver.js",
+    "dev": "node-dev ./src/server.js",
+    "migrate": "knex migrate:latest"
+  },
+  "author": "Gabriel Leonardo Alano Batista Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "knex": "^2.4.2",
+    "node-dev": "^8.0.0",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.4"
+  }
+}
